@@ -6,7 +6,7 @@ export default function Header(){
     return (
         <>
         <img src={logo}/>
-        <h1>Header</h1>
+        <h1>Kbcinha</h1>
         </>
         )
 }
