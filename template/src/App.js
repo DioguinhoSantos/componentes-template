@@ -1,9 +1,10 @@
 import React from "react";
 
 import "./App.css";
+import {GlobalStyle} from "./GlobalStyle";
 
 import Footer from "./components/Footer";
-import Garagem from "./components/Garagem";
+import Garagem from "./components/Garagem/Garagem";
 import Header from "./components/Header";
 
 let garaginha = [
@@ -43,6 +44,8 @@ export default function App() {
   return (
     <div className="App">
       <Header/>
+
+      <GlobalStyle />
 
       <Garagem nome="Diogo" carros = {garaginha} alerta = {alerta}/>
       
