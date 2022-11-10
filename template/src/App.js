@@ -5,7 +5,7 @@ import {GlobalStyle} from "./GlobalStyle";
 
 import Footer from "./components/Footer";
 import Garagem from "./components/Garagem/Garagem";
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
 
 let garaginha = [
   
@@ -43,9 +43,9 @@ export default function App() {
   
   return (
     <div className="App">
-      <Header/>
-
       <GlobalStyle />
+      
+      <Header/>
 
       <Garagem nome="Diogo" carros = {garaginha} alerta = {alerta}/>
       

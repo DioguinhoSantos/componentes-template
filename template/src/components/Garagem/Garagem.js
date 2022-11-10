@@ -9,7 +9,7 @@ export default function Garagem(props){
         <GaragemContainer>
             <TituloGaragem>Garagem de {props.nome}</TituloGaragem>
 
-            <BotaoGaragem onClick={() => props.alerta(props.nome)}>teste do coliro</BotaoGaragem>
+            <BotaoGaragem onClick={() => props.alerta(props.nome)}>teste do colir</BotaoGaragem>
             <Estacionamento>
 
                 <Carro carros = {props.carros[0]} adicionadoPor = {`Diogo`}/>
