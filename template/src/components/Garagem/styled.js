@@ -14,7 +14,7 @@ export const TituloGaragem = styled.h1`
 `
 
 export const GaragemContainer = styled.main`
-    width: 90vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;

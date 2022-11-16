@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ImgLabenu = styled.img`
-    object-fit: none;
+    max-width: 5%;
 `
 
 export const Kbcinha = styled.h1`
